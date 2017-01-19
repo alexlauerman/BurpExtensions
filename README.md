@@ -4,13 +4,13 @@
 | Name                            | Description                                                                                                 | BApp Store | Category | Review |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------|------------|----------|--------|
 | [.NET Beautifier](https://github.com/allfro/dotNetBeautifier)                 | Masks verbose parameter details in .NET requests.                                                           | Y          | Beautifier         |        |
-| Active Scan++                   | Extends Burp's active and passive scanning capabilities.                                                    | Y          | Scanner Check         |        |
-| Additional Scanner Checks       | Provides some additional passive Scanner checks.                                                            | Y          | Scanner Check         |        |
+| Active Scan++                   | Extends Burp's active and passive scanning capabilities.                                                    | Y          | Scanner         |        |
+| Additional Scanner Checks       | Provides some additional passive Scanner checks.                                                            | Y          | Scanner         |        |
 | AES Payloads                    | Allows encryption and decryption of AES payloads in Burp Intruder and Scanner.                              | Y          | Cryptography         |        |
-| AuthMatrix                      | Provides a simple way to test authorization in web applications and web services.                           | Y          |          |        |
-| Authz                           | Helps test for authorization vulnerabilities.                                                               | Y          |          |        |
-| Autorize                        | Automatically detects authorization enforcement.                                                            | Y          |          |        |
-| Backslash Powered Scanner       | Finds unknown classes of injection vulnerabilities.                                                         | Y          |          |        |
+| AuthMatrix                      | Provides a simple way to test authorization in web applications and web services.                           | Y          | Authorization         |        |
+| Authz                           | Helps test for authorization vulnerabilities.                                                               | Y          | Authorization         |        |
+| Autorize                        | Automatically detects authorization enforcement.                                                            | Y          | Authorization         |        |
+| Backslash Powered Scanner       | Finds unknown classes of injection vulnerabilities.                                                         | Y          | Scanner         | Intelligent active scan plugin that relies heavily on server-side comprehension of backslashes. Lots of bugs when it came now, but most are now fixed. High rate of false positives.     |
 | Blazer                          | Generates and fuzzes custom AMF messages.                                                                   | Y          |          |        |
 | Bradamsa                        | Generates Intruder payloads using the Radamsa test case generator.                                          | Y          |          |        |
 | Browser Repeater                | Automatically renders Repeater responses in Firefox.                                                        | Y          |          |        |
