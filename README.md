@@ -4,7 +4,7 @@
 | Name                            | Description                                                                                                 | BApp Store | Category | Review |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------|------------|----------|--------|
 | [.NET Beautifier](https://github.com/allfro/dotNetBeautifier)                 | Masks verbose parameter details in .NET requests.                                                           | Y          | Beautifier         |        |
-| Active Scan++                   | Extends Burp's active and passive scanning capabilities.                                                    | Y          | Scanner         |        |
+| [Active Scan++](https://github.com/albinowax/ActiveScanPlusPlus)                   | Extends Burp's active and passive scanning capabilities.                                                    | Y          | Scanner         |        |
 | Additional Scanner Checks       | Provides some additional passive Scanner checks.                                                            | Y          | Scanner         |        |
 | AES Payloads                    | Allows encryption and decryption of AES payloads in Burp Intruder and Scanner.                              | Y          | Cryptography         |        |
 | AuthMatrix                      | Provides a simple way to test authorization in web applications and web services.                           | Y          | Authorization         |        |
