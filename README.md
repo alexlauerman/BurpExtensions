@@ -1,2 +1,88 @@
 # BurpExtensions
-A list of burp extensions
+
+
+| Name                            | Description                                                                                                 | BApp Store | Category | Review |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------|------------|----------|--------|
+| .NET Beautifier                 | Masks verbose parameter details in .NET requests.                                                           | Y          |          |        |
+| Active Scan++                   | Extends Burp's active and passive scanning capabilities.                                                    | Y          |          |        |
+| Additional Scanner Checks       | Provides some additional passive Scanner checks.                                                            | Y          |          |        |
+| AES Payloads                    | Allows encryption and decryption of AES payloads in Burp Intruder and Scanner.                              | Y          |          |        |
+| AuthMatrix                      | Provides a simple way to test authorization in web applications and web services.                           | Y          |          |        |
+| Authz                           | Helps test for authorization vulnerabilities.                                                               | Y          |          |        |
+| Autorize                        | Automatically detects authorization enforcement.                                                            | Y          |          |        |
+| Backslash Powered Scanner       | Finds unknown classes of injection vulnerabilities.                                                         | Y          |          |        |
+| Blazer                          | Generates and fuzzes custom AMF messages.                                                                   | Y          |          |        |
+| Bradamsa                        | Generates Intruder payloads using the Radamsa test case generator.                                          | Y          |          |        |
+| Browser Repeater                | Automatically renders Repeater responses in Firefox.                                                        | Y          |          |        |
+| Buby                            | Adds Ruby scripting capabilities to Burp.                                                                   | Y          |          |        |
+| Burp Chat                       | Enables collaborative usage of Burp using XMPP/Jabber.                                                      | Y          |          |        |
+| Burp CSJ                        | Integrates Crawljax, Selenium and JUnit into Burp.                                                          | Y          |          |        |
+| Burp-hash                       | Identifies previously submitted inputs appearing in hashed form.                                            | Y          |          |        |
+| Bypass WAF                      | Adds headers useful for bypassing some WAF devices.                                                         | Y          |          |        |
+| Carbonator                      | Provides a command-line interface to drive spidering and scanning.                                          | Y          |          |        |
+| CO2                             | Adds various capabilities including SQL Mapper, User Generator and Prettier JS.                             | Y          |          |        |
+| Content Type Converter          | Converts JSON To XML, XML to JSON, body parameters to JSON, and body parameters to XML.                     | Y          |          |        |
+| Copy As Python-Requests         | Copies selected request(s) as Python-Requests invocations.                                                  | Y          |          |        |
+| CSRF Scanner                    | Passively scans for CSRF vulnerabilities.                                                                   | Y          |          |        |
+| CSurfer                         | Hides and automatically handles anti-CSRF token defenses.                                                   | Y          |          |        |
+| Custom Logger                   | Adds a new tab to log all requests and responses.                                                           | Y          |          |        |
+| Decompressor                    | View and modify compressed HTTP messages without changing the content-encoding.                             | Y          |          |        |
+| Detect Dynamic JS               | Passively checks for differing content in JavaScript files and aids in finding user/session data.           | Y          |          |        |
+| Distribute Damage               | Evenly distributes scanner load across targets.                                                             | Y          |          |        |
+| Dradis Framework                | Send Scanner issues to Dradis collaboration and reporting framework.                                        | Y          |          |        |
+| Error Message Checks            | Passively detects detailed server error messages.                                                           | Y          |          |        |
+| Faraday                         | Integrates Burp with the Faraday Integrated Penetration-Test Environment.                                   | Y          |          |        |
+| Flow                            | Provides request history view for all Burp tools.                                                           | Y          |          |        |
+| Git Bridge                      | Lets Burp users store Burp data and collaborate via git.                                                    | Y          |          |        |
+| Google Hack                     | Lets you run Google Hacking queries and add results to Burp's site map.                                     | Y          |          |        |
+| GWT Insertion Points            | Automatically identifies insertion points for GWT (Google Web Toolkit) requests.                            | Y          |          |        |
+| Hackvertor                      | Converts data using a tag-based configuration to apply various encoding and escaping operations.            | Y          |          |        |
+| Headers Analyzer                | Reports security issues in HTTP headers.                                                                    | Y          |          |        |
+| HeartBleed                      | Checks whether a server is vulnerable to the Heartbleed bug.                                                | Y          |          |        |
+| HTML5 Auditor                   | Scans for usage of risky HTML5 features.                                                                    | Y          |          |        |
+| HTTPoxy Scanner                 | Scans for the HTTPoxy vulnerability.                                                                        | Y          |          |        |
+| Identity Crisis                 | Checks if a particular URL responds differently to various User-Agent headers.                              | Y          |          |        |
+| Image Location Scanner          | Passively scans jpeg / png / tiff for embedded GPS, IPTC, and camera-proprietary location information.      | Y          |          |        |
+| Image Metadata                  | Extracts metadata from image files.                                                                         | Y          |          |        |
+| Intruder File Payload Generator | Allows use of file contents and filenames as Intruder payloads.                                             | Y          |          |        |
+| Issue Poster                    | Posts discovered Scanner issues to an external web service.                                                 | Y          |          |        |
+| J2EEScan                        | Adds scan checks focused on Java environments and technologies.                                             | Y          |          |        |
+| Java Deserialization Scanner    | Performs active and passive scans to detect Java deserialization vulnerabilities.                           | Y          |          |        |
+| JSON Decoder                    | Displays JSON messages in decoded form.                                                                     | Y          |          |        |
+| Lair                            | Sends Burp Scanner issues directly to a remote Lair project.                                                | Y          |          |        |
+| Logger++                        | Logs requests and responses for all Burp tools in a sortable table.                                         | Y          |          |        |
+| Manual Scan Issues              | Allows users to manually create custom issues within the Burp Scanner results.                              | Y          |          |        |
+| MindMap Exporter                | Aids with documentation of OWASP Testing Guide V4 tests.                                                    | Y          |          |        |
+| NMAP Parser                     | Parses Nmap output files and adds common web ports to Burp's target scope.                                  | Y          |          |        |
+| Notes                           | Lets you take notes and manage external documents from within Burp.                                         | Y          |          |        |
+| Paramalyzer                     | Improves efficiency of manual parameter analysis for web penetration tests.                                 | Y          |          |        |
+| ParrotNG                        | Adds a custom Scanner check to identify Flex applications vulnerable to CVE-2011-2461 (APSB11-25).          | Y          |          |        |
+| Payload Parser                  | Generates payload lists based on a set of characters that are sanitized.                                    | Y          |          |        |
+| Pcap Importer                   | Imports and passively scans Pcap files.                                                                     | Y          |          |        |
+| PDF Metadata                    | Provides an additional passive Scanner check for metadata in PDF files.                                     | Y          |          |        |
+| PDF Viewer                      | Allows viewing of PDF files directly within Burp.                                                           | Y          |          |        |
+| Protobuf Decoder                | Decodes and beautifies protobuf responses.                                                                  | Y          |          |        |
+| Python Scripter                 | Allows execution of a custom Python script on each HTTP request and response.                               | Y          |          |        |
+| Random IP Address Header        | Automatically generates fake source IP address headers to evade WAF filters.                                | Y          |          |        |
+| Reflected Parameters            | Monitors traffic and looks for parameter values that are reflected in the response.                         | Y          |          |        |
+| Reissue Request Scripter        | This extension generates scripts to reissue selected requests.                                              | Y          |          |        |
+| Report To Elastic Search        | Reports issues discovered by Burp to an ElasticSearch database.                                             | Y          |          |        |
+| Request Randomizer              | Places a random value into a specified location within requests.                                            | Y          |          |        |
+| Retire.js                       | Integrates with the Retire.js repository to find vulnerable JavaScript libraries.                           | Y          |          |        |
+| SAML Editor                     | Adds a tab to Burp's message editor for decoding/encoding SAML messages.                                    | Y          |          |        |
+| SAML Encoder / Decoder          | Adds a tab to Burp's main UI for decoding/encoding SAML messages.                                           | Y          |          |        |
+| SAML Raider                     | Provides a SAML message editor and a certificate management tool to help with testing SAML infrastructures. | Y          |          |        |
+| Sentinel                        | Performs custom scanning for vulnerabilities in web applications.                                           | Y          |          |        |
+| Session Auth                    | Identifies authentication privilege escalation vulnerabilities.                                             | Y          |          |        |
+| Session Timeout Test            | Determines server session timeout intervals.                                                                | Y          |          |        |
+| Site Map Fetcher                | Fetches the responses of unrequested items in the site map.                                                 | Y          |          |        |
+| Software Version Reporter       | Passively reports server software version numbers.                                                          | Y          |          |        |
+| SQLiPy                          | Initiates SQLMap scans directly from within Burp.                                                           | Y          |          |        |
+| ThreadFix                       | Provides an interface to the ThreadFix vulnerability management platform.                                   | Y          |          |        |
+| WCF Deserializer                | Allows Burp to view and modify binary SOAP objects.                                                         | Y          |          |        |
+| WebInspect Connector            | Integrates Burp with HP WebInspect.                                                                         | Y          |          |        |
+| WebSphere Portlet State Decoder | Displays information about IBM WebSphere Portlet state.                                                     | Y          |          |        |
+| What-The-WAF                    | Extends Intruder to aid in testing Web Application Firewalls.                                               | Y          |          |        |
+| WSDL Wizard                     | Scans a target server for WSDL files.                                                                       | Y          |          |        |
+| Wsdler                          | Parses WSDL files and generates SOAP requests to the enumerated endpoints.                                  | Y          |          |        |
+| XSS Validator                   | Sends responses to a locally-running XSS-Detector server.                                                   | Y          |          |        |
