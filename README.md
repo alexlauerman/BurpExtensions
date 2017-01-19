@@ -32,7 +32,7 @@
 | Dradis Framework                | Send Scanner issues to Dradis collaboration and reporting framework.                                        | Y          |          |        |
 | Error Message Checks            | Passively detects detailed server error messages.                                                           | Y          |          |        |
 | Faraday                         | Integrates Burp with the Faraday Integrated Penetration-Test Environment.                                   | Y          |          |        |
-| Flow                            | Provides request history view for all Burp tools.                                                           | Y          |          |        |
+| Flow                            | Provides request history view for all Burp tools.                                                           | Y          | Logger         | Like Logger++, but works asnychronously.       |
 | Git Bridge                      | Lets Burp users store Burp data and collaborate via git.                                                    | Y          |          |        |
 | Google Hack                     | Lets you run Google Hacking queries and add results to Burp's site map.                                     | Y          |          |        |
 | GWT Insertion Points            | Automatically identifies insertion points for GWT (Google Web Toolkit) requests.                            | Y          |          |        |
@@ -50,7 +50,7 @@
 | Java Deserialization Scanner    | Performs active and passive scans to detect Java deserialization vulnerabilities.                           | Y          |          |        |
 | JSON Decoder                    | Displays JSON messages in decoded form.                                                                     | Y          |          |        |
 | Lair                            | Sends Burp Scanner issues directly to a remote Lair project.                                                | Y          |          |        |
-| Logger++                        | Logs requests and responses for all Burp tools in a sortable table.                                         | Y          |          |        |
+| Logger++                        | Logs requests and responses for all Burp tools in a sortable table.                                         | Y          | Logger         | This, or Flow is a "must have".       |
 | Manual Scan Issues              | Allows users to manually create custom issues within the Burp Scanner results.                              | Y          |          |        |
 | MindMap Exporter                | Aids with documentation of OWASP Testing Guide V4 tests.                                                    | Y          |          |        |
 | NMAP Parser                     | Parses Nmap output files and adds common web ports to Burp's target scope.                                  | Y          |          |        |
@@ -86,10 +86,14 @@
 | WSDL Wizard                     | Scans a target server for WSDL files.                                                                       | Y          |          |        |
 | Wsdler                          | Parses WSDL files and generates SOAP requests to the enumerated endpoints.                                  | Y          |          |        |
 | XSS Validator                   | Sends responses to a locally-running XSS-Detector server.                                                   | Y          |          |        |
+| [sploits](https://github.com/summitt/sploits) | Quickly add http and https domains to BurpSuite's scope with all paths.  | N          |          |        |
+| [Burp-Non-HTTP-Extension](https://github.com/summitt/Burp-Non-HTTP-Extension) | Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suite.  | N          |          |        |
+| [burpbuddy](https://github.com/tomsteele/burpbuddy) | burpbuddy exposes Burp Suites's extender API over the network through various mediums, with the goal of enabling development in any language without the restrictions of the JVM | N          | API         |        |
+| [burp-image-size](https://github.com/silentsignal/burp-image-size) | Image size issues plugin for Burp Suite | N          | Scanner         | Excellent for exploiting ImageTragick       |
 | [CryptoAttacker](https://github.com/webstersprodigy/webstersprodigy/tree/master/burp/cryptoAttack) | CryptoAttacker helps detect and exploit some common crypto flaws. | N          |          | This was removed from the BApp store, but I'm not sure why.       |
 | [BReWSki](https://github.com/Burp-BReWSki/BReWSki) | BReWSki (Burp Rhino Web Scanner) is a Java extension for Burp Suite that allows user to write custom scanner checks in JavaScript. | N          |          |        |
-| [IncrementMePlease](https://github.com/alexlauerman/IncrementMePlease) | Burp extension to increment a parameter in each active scan request                                    | N          |          |        |
-| [UpdateToken](https://github.com/alexlauerman/UpdateToken) | Burp extension to use updated token values, such as a bearer token                                    | N          |          |        |
+| [IncrementMePlease](https://github.com/alexlauerman/IncrementMePlease) | Burp extension to increment a parameter in each active scan request                                    | N          | Scanner         | Likely needs modification for your application.       |
+| [UpdateToken](https://github.com/alexlauerman/UpdateToken) | Burp extension to use updated token values, such as a bearer token                                    | N          | Scanner        |        |
 | [Collect500](https://github.com/floyd-fuh/burp-Collect500) | Burp plugin that collects all HTTP 500 messages                                   | N          |          |        |                                 
 | [ResponseClusterer](https://github.com/floyd-fuh/burp-ResponseClusterer) | Burp plugin that clusters responses to show an overview of received responses | N          |          |        |                                 
 | [HttpFuzzer](https://github.com/floyd-fuh/burp-HttpFuzzer) | Burp plugin to do random fuzzing of HTTP requests                                 | N          |          |        |                                 
