@@ -3,10 +3,10 @@
 
 | Name                            | Description                                                                                                 | BApp Store | Category | Review |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------|------------|----------|--------|
-| .NET Beautifier                 | Masks verbose parameter details in .NET requests.                                                           | Y          |          |        |
-| Active Scan++                   | Extends Burp's active and passive scanning capabilities.                                                    | Y          |          |        |
-| Additional Scanner Checks       | Provides some additional passive Scanner checks.                                                            | Y          |          |        |
-| AES Payloads                    | Allows encryption and decryption of AES payloads in Burp Intruder and Scanner.                              | Y          |          |        |
+| [.NET Beautifier](https://github.com/allfro/dotNetBeautifier)                 | Masks verbose parameter details in .NET requests.                                                           | Y          | Beautifier         |        |
+| Active Scan++                   | Extends Burp's active and passive scanning capabilities.                                                    | Y          | Scanner Check         |        |
+| Additional Scanner Checks       | Provides some additional passive Scanner checks.                                                            | Y          | Scanner Check         |        |
+| AES Payloads                    | Allows encryption and decryption of AES payloads in Burp Intruder and Scanner.                              | Y          | Cryptography         |        |
 | AuthMatrix                      | Provides a simple way to test authorization in web applications and web services.                           | Y          |          |        |
 | Authz                           | Helps test for authorization vulnerabilities.                                                               | Y          |          |        |
 | Autorize                        | Automatically detects authorization enforcement.                                                            | Y          |          |        |
@@ -86,3 +86,11 @@
 | WSDL Wizard                     | Scans a target server for WSDL files.                                                                       | Y          |          |        |
 | Wsdler                          | Parses WSDL files and generates SOAP requests to the enumerated endpoints.                                  | Y          |          |        |
 | XSS Validator                   | Sends responses to a locally-running XSS-Detector server.                                                   | Y          |          |        |
+| [CryptoAttacker](https://github.com/webstersprodigy/webstersprodigy/tree/master/burp/cryptoAttack) | CryptoAttacker helps detect and exploit some common crypto flaws. | N          |          | This was removed from the BApp store, but I'm not sure why.       |
+| [BReWSki](https://github.com/Burp-BReWSki/BReWSki) | BReWSki (Burp Rhino Web Scanner) is a Java extension for Burp Suite that allows user to write custom scanner checks in JavaScript. | N          |          |        |
+| [IncrementMePlease](https://github.com/alexlauerman/IncrementMePlease) | Burp extension to increment a parameter in each active scan request                                    | N          |          |        |
+| [UpdateToken](https://github.com/alexlauerman/UpdateToken) | Burp extension to use updated token values, such as a bearer token                                    | N          |          |        |
+| [Collect500](https://github.com/floyd-fuh/burp-Collect500) | Burp plugin that collects all HTTP 500 messages                                   | N          |          |        |                                 
+| [ResponseClusterer](https://github.com/floyd-fuh/burp-ResponseClusterer) | Burp plugin that clusters responses to show an overview of received responses | N          |          |        |                                 
+| [HttpFuzzer](https://github.com/floyd-fuh/burp-HttpFuzzer) | Burp plugin to do random fuzzing of HTTP requests                                 | N          |          |        |                                 
+| 
