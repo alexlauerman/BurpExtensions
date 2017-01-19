@@ -86,12 +86,13 @@
 | WSDL Wizard                     | Scans a target server for WSDL files.                                                                       | Y          |          |        |
 | Wsdler                          | Parses WSDL files and generates SOAP requests to the enumerated endpoints.                                  | Y          |          |        |
 | XSS Validator                   | Sends responses to a locally-running XSS-Detector server.                                                   | Y          |          |        |
+| [BurpKit](https://github.com/allfro/BurpKit) | Webkit browser, JavaScript extensions, and jython console  | N          |          |        |
 | [sploits](https://github.com/summitt/sploits) | Quickly add http and https domains to BurpSuite's scope with all paths.  | N          |          |        |
 | [Burp-Non-HTTP-Extension](https://github.com/summitt/Burp-Non-HTTP-Extension) | Non-HTTP Protocol Extension (NoPE) Proxy and DNS for Burp Suite.  | N          |          |        |
 | [burpbuddy](https://github.com/tomsteele/burpbuddy) | burpbuddy exposes Burp Suites's extender API over the network through various mediums, with the goal of enabling development in any language without the restrictions of the JVM | N          | API         |        |
 | [burp-image-size](https://github.com/silentsignal/burp-image-size) | Image size issues plugin for Burp Suite | N          | Scanner         | Excellent for exploiting ImageTragick       |
 | [CryptoAttacker](https://github.com/webstersprodigy/webstersprodigy/tree/master/burp/cryptoAttack) | CryptoAttacker helps detect and exploit some common crypto flaws. | N          |          | This was removed from the BApp store, but I'm not sure why.       |
-| [BReWSki](https://github.com/Burp-BReWSki/BReWSki) | BReWSki (Burp Rhino Web Scanner) is a Java extension for Burp Suite that allows user to write custom scanner checks in JavaScript. | N          |          |        |
+| [BReWSki](https://github.com/Burp-BReWSki/BReWSki) | BReWSki (Burp Rhino Web Scanner) is a Java extension for Burp Suite that allows user to write custom scanner checks in JavaScript. | N          |          | Likely superceded by BurpKit, but this comes with a few more checks.       |
 | [IncrementMePlease](https://github.com/alexlauerman/IncrementMePlease) | Burp extension to increment a parameter in each active scan request                                    | N          | Scanner         | Likely needs modification for your application.       |
 | [UpdateToken](https://github.com/alexlauerman/UpdateToken) | Burp extension to use updated token values, such as a bearer token                                    | N          | Scanner        |        |
 | [Collect500](https://github.com/floyd-fuh/burp-Collect500) | Burp plugin that collects all HTTP 500 messages                                   | N          |          |        |                                 
