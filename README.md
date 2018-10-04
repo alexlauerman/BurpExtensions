@@ -17,6 +17,7 @@
 | Buby                            | Adds Ruby scripting capabilities to Burp.                                                                   | Y          |          |        |
 | Burp Chat                       | Enables collaborative usage of Burp using XMPP/Jabber.                                                      | Y          |          |        |
 | Burp CSJ                        | Integrates Crawljax, Selenium and JUnit into Burp.                                                          | Y          |          |        |
+| Burp-Dirbuster               | Dirbuster plugin for Burp Suite.                                                             | N          |          |        |
 | Burp-hash                       | Identifies previously submitted inputs appearing in hashed form.                                            | Y          |          |        |
 | Bypass WAF                      | Adds headers useful for bypassing some WAF devices.                                                         | Y          |          |        |
 | Carbonator                      | Provides a command-line interface to drive spidering and scanning.                                          | Y          |          |        |
